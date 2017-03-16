@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         }catch (Exception e){
             Rel.setText("Divisor kann nicht 0 sein");
             Rel.setText("falsch");
+
         }
 
 
