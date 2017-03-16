@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
     public void onClick  (View v){
 
         EditText Dd = (EditText) findViewById(R.id.editText3);
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             Rel.setText(String.valueOf(result));
         }catch (Exception e){
             Rel.setText("Divisor kann nicht 0 sein");
+            Rel.setText("falsch");
         }
 
 
